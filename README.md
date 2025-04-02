@@ -1,3 +1,3 @@
 # monster_hanter_rec
 
-start create app
+start create app.
