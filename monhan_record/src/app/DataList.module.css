@@ -1,0 +1,27 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .dataList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dataItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .textContainer {
+    flex-grow: 1;
+  }
+  
+  .checkboxContainer {
+    display: flex;
+    align-items: center;
+  }
