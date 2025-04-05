@@ -65,7 +65,7 @@ export default function Home() {
                 checked={checkedItems[index]}
                 onChange={() => handleCheckboxClick(index)}
               />
-              {checkedItems[index] && <span> - チェック済み</span>}
+              {checkedItems[index]}
             </div>
           </li>
         ))}
