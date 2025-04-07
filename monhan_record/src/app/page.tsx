@@ -36,7 +36,7 @@ export default function Home() {
     {id: 22,name: "リオレウス",img: ""},
     {id: 23,name: "グラビモス",img: ""},
     {id: 24,name: "ドドブランゴ",img: ""},
-    {id: 25,name: "ゴアマガラ",img: ""},
+    {id: 25,name: "ゴア・マガラ",img: ""},
     {id: 26,name: "アルシュベルド",img: ""},
   ];
 
