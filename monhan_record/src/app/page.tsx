@@ -1,4 +1,4 @@
-"use client";
+'use client'
 
 import React,{useState} from 'react';
 import styles from '../app/DataList.module.css';
@@ -8,13 +8,13 @@ type Monster = {
   id: number;
   name: string;
   img: string;
-};
+}
 
-export default function Home() {
-  const anMonster: Monster[] = [
-    {id: 1,name: "チャタカブラ",img: ""},
-    {id: 2,name: "ケマトリス",img: ""},
-    {id: 3,name: "ラバラバリナ",img: ""},
+export default function Home () {
+  const anMonster:Monster[] = [
+    {id:1,name:'チャタカブラ',img:''},
+    {id:2,name:'ケマトリス',img:''},
+    // {id: 3,name: "ラバラバリナ",img: ""},
     // {id: 4,name: "ババコンガ",img: ""},
     // {id: 5,name: "バーラハーラ",img: ""},
     // {id: 6,name: "ドシャグマ",img: ""},
@@ -38,49 +38,47 @@ export default function Home() {
     // {id: 24,name: "ドドブランゴ",img: ""},
     // {id: 25,name: "ゴア・マガラ",img: ""},
     // {id: 26,name: "アルシュベルド",img: ""},
-  ];
+  ]
 
   const [checkedItems,setCheckedItems] = useState<boolean[]>(
     Array(anMonster.length).fill(false)
-  );
+  )
 
-  const handleCheckboxClick = (index: number) => {
-    const newCheckedItems = [...checkedItems];
-    newCheckedItems[index] = !newCheckedItems[index];
-    setCheckedItems(newCheckedItems);
+  const handleCheckboxClick = (index:number) => {
+    const newcheckedItems = [...checkedItems]
+    newcheckedItems[index] = !checkedItems[index];
+    setCheckedItems(newcheckedItems);
   }
 
   return(
     <div className={styles.container}>
       <h1>データリスト</h1>
-      <ul className={styles.datalist}>
+      <ul className={styles.dataList}>
         {anMonster.map((items,index) => (
           <li key={index} className={styles.dataItem}>
             <Link
               href={{
-                pathname: '/detail',
+                pathname:'/detail',
                 query: {
                   name: items.name,
                 },
               }}
               passHref
               >
-                <div className={styles.textContainer}>
-                  {`${items.name}`}
-                </div>
-              </Link>
-              <div className={styles.checkboxContainer}>
-                <input
-                  type='checkbox'
-                  checked={checkedItems[index]}
-                  onChange={() => handleCheckboxClick(index)}
-                />
-                {checkedItems[index]}
+              <div className={styles.textContainer}>
+                {`${items.name}`}
               </div>
+            </Link>
+            <div className={styles.checkboxContainer}>
+              <input
+                type="checkbox"
+                checked={checkedItems[index]}
+                onChange={() => handleCheckboxClick(index)}
+                />
+            </div>
           </li>
         ))}
       </ul>
     </div>
   );
-
-}
+};
