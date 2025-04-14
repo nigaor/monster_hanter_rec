@@ -14,7 +14,7 @@ export default function Home() {
 
   const anMonster: Monster[] = [
     {id: 1,name: "チャタカブラ",img: ""},
-    {id: 2,name: "ケマトリス",img: ""},
+    // {id: 2,name: "ケマトリス",img: ""},
     // {id: 3,name: "ラバラバリナ",img: ""},
     // {id: 4,name: "ババコンガ",img: ""},
     // {id: 5,name: "バーラハーラ",img: ""},
