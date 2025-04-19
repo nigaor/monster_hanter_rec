@@ -17,7 +17,7 @@ export default function Home() {
     {id: 2,name: "ケマトリス",img: ""},
     {id: 3,name: "ラバラバリナ",img: ""},
     {id: 4,name: "ババコンガ",img: ""},
-    // {id: 5,name: "バーラハーラ",img: ""},
+    {id: 5,name: "バーラハーラ",img: ""},
     // {id: 6,name: "ドシャグマ",img: ""},
     // {id: 7,name: "ウズトゥナ",img: ""},
     // {id: 8,name: "ププロポル",img: ""},
