@@ -20,7 +20,7 @@ export default function Home() {
     {id: 5,name: "バーラハーラ",img: ""},
     {id: 6,name: "ドシャグマ",img: ""},
     {id: 7,name: "ウズトゥナ",img: ""},
-    // {id: 8,name: "ププロポル",img: ""},
+    {id: 8,name: "ププロポル",img: ""},
     // {id: 9,name: "レ・ダウ",img: ""},
     // {id: 10,name: "ネルスキュラ",img: ""},
     // {id: 11,name: "ヒラバミ",img: ""},
