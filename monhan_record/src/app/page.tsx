@@ -24,7 +24,7 @@ export default function Home() {
     {id: 9,name: "レ・ダウ",img: ""},
     {id: 10,name: "ネルスキュラ",img: ""},
     {id: 11,name: "ヒラバミ",img: ""},
-    // {id: 12,name: "アジャラカン",img: ""},
+    {id: 12,name: "アジャラカン",img: ""},
     // {id: 13,name: "ヌ・エグドラ",img: ""},
     // {id: 14,name: "護竜ドシャグマ",img: ""},
     // {id: 15,name: "護竜リオレウス",img: ""},
