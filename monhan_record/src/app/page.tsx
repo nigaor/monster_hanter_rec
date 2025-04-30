@@ -27,7 +27,7 @@ export default function Home() {
     {id: 12,name: "アジャラカン",img: ""},
     {id: 13,name: "ヌ・エグドラ",img: ""},
     {id: 14,name: "護竜ドシャグマ",img: ""},
-    // {id: 15,name: "護竜リオレウス",img: ""},
+    {id: 15,name: "護竜リオレウス",img: ""},
     // {id: 16,name: "護竜オドガロン亜種",img: ""},
     // {id: 17,name: "護竜アンジャナフ亜種",img: ""},
     // {id: 18,name: "シーウー",img: ""},
